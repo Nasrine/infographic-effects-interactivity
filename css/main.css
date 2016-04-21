@@ -16,8 +16,32 @@ h2:hover {
   color: white;
 }
 
-svg {
-  stroke-width: 0;
+.candyghost {
+  opacity: 0;
+}
+
+.candyghostappears {
+  opacity: 1;
+  animation: fadein 2s ease;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.candies {
+/*  stroke-width: 0;*/
+  opacity: 0;
+}
+
+.notcandies {
+/*  stroke-width: 0;*/
+  opacity: 0;
 }
 
 .unita {
@@ -48,15 +72,7 @@ svg {
   height: 100%;
 }
 
-.shake {
-  transition: all .9s linear;
-  animation: shake .9s ease-in-out infinite;
+.opacity {
+  opacity: 1;
+  /*animation: jiggle 250ms linear;*/
 }
-
-@keyframes shake {
-
-  0% { transform: translateX(0); }
-
-  20% { transform: translateX(-10px); }
-}
-
