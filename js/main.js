@@ -1,6 +1,11 @@
 var $candies = $('.candies');
 var $notcandies = $('.notcandies');
 var $candyghost = $('.candyghost');
+var $candyguide = $('.candyguide');
+
+// $candyguide.on('click', function (e) {
+//   $(this).toggleClass('is-clicked');
+// });
 
 $candies.waypoint(function (direction) {
   if (direction == 'down') {
