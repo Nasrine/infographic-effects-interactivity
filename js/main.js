@@ -8,35 +8,35 @@ var $candyguide = $('.candyguide');
 // });
 $candyguide.waypoint(function (direction) {
   if (direction == 'down') {
-    $candyguide.addClass('candyguideappears')
+    $candyguide.addClass('candyguideappears');
 
   } else {
-    $candyguide.removeClass('candyguideappears')
+    $candyguide.removeClass('candyguideappears');
   }
 }, {offset:'90%'});
 
 $candies.waypoint(function (direction) {
   if (direction == 'down') {
-    $candies.addClass('opacity')
+    $candies.addClass('opacity');
   } else {
-    $candies.removeClass('opacity')
+    $candies.removeClass('opacity');
   }
 }, {offset:'30%'});
 
 $notcandies.waypoint(function (direction) {
   if (direction == 'down') {
-    $notcandies.addClass('opacity')
+    $notcandies.addClass('opacity');
 
   } else {
-    $notcandies.removeClass('opacity')
+    $notcandies.removeClass('opacity');
   }
 }, {offset:'30%'});
 
 $candyghost.waypoint(function (direction) {
   if (direction == 'down') {
-    $candyghost.addClass('candyghostappears')
+    $candyghost.addClass('candyghostappears');
 
   } else {
-    $candyghost.removeClass('candyghostappears')
+    $candyghost.removeClass('candyghostappears');
   }
 }, {offset:'90%'});
