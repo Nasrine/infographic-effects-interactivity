@@ -13,7 +13,7 @@ $candyguide.waypoint(function (direction) {
   } else {
     $candyguide.removeClass('candyguideappears');
   }
-}, {offset:'90%'});
+}, {offset: '90%'});
 
 $candies.waypoint(function (direction) {
   if (direction == 'down') {
@@ -21,7 +21,7 @@ $candies.waypoint(function (direction) {
   } else {
     $candies.removeClass('opacity');
   }
-}, {offset:'30%'});
+}, {offset: '30%'});
 
 $notcandies.waypoint(function (direction) {
   if (direction == 'down') {
@@ -30,7 +30,7 @@ $notcandies.waypoint(function (direction) {
   } else {
     $notcandies.removeClass('opacity');
   }
-}, {offset:'30%'});
+}, {offset: '30%'});
 
 $candyghost.waypoint(function (direction) {
   if (direction == 'down') {
@@ -39,4 +39,4 @@ $candyghost.waypoint(function (direction) {
   } else {
     $candyghost.removeClass('candyghostappears');
   }
-}, {offset:'90%'});
+}, {offset: '90%'});
