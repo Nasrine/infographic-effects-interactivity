@@ -12,13 +12,17 @@ html {
   color: #fbb041;
 }
 
+h2{
+  font-size: 2em;
+
+}
 h2:hover {
   color: white;
 }
 
-.candyguide {
+.candyghost {
   opacity: 1;
-  animation: glow 5s ease-in-out infinite;
+  animation: glow 10s ease-in-out infinite;
 }
 
 @keyframes glow {
@@ -35,13 +39,13 @@ h2:hover {
   transition:  200ms ease;
 }*/
 
-.candyghost {
+.candyguide {
   opacity: 0;
 }
 
-.candyghostappears {
+.candyguideappears {
   opacity: 1;
-  animation: fadein 2s ease;
+  animation: fadein 8s ease;
 }
 
 @keyframes fadein {
@@ -53,15 +57,10 @@ h2:hover {
   }
 }
 
-.candies {
-/*  stroke-width: 0;*/
+/*.notcandies {
+  stroke-width: 0;
   opacity: 0;
-}
-
-.notcandies {
-/*  stroke-width: 0;*/
-  opacity: 0;
-}
+}*/
 
 .unita {
   position: relative;
@@ -91,9 +90,76 @@ svg {
   height: 100%;
 }
 
-.opacity {
+.candies .one {
+  opacity: 0;
+  transition: all .2s linear;
+}
+
+.opacity .one{
   opacity: 1;
-  /*animation: jiggle 250ms linear;*/
+}
+
+.candies .two {
+  opacity: 0;
+  transition: all .2s linear .3s;
+}
+
+.opacity .two{
+  opacity: 1;
+}
+
+.candies .three {
+  opacity: 0;
+  transition: all .2s linear .6s;
+}
+
+.opacity .three{
+  opacity: 1;
+}
+
+.candies .four {
+  opacity: 0;
+  transition: all .2s linear .9s;
+}
+
+.opacity .four{
+  opacity: 1;
+}
+
+.notcandies .one {
+  opacity: 0;
+  transition: all .2s linear;
+}
+
+.opacity .one{
+  opacity: 1;
+}
+
+.notcandies .two {
+  opacity: 0;
+  transition: all .2s linear .3s;
+}
+
+.opacity .two{
+  opacity: 1;
+}
+
+.notcandies .three {
+  opacity: 0;
+  transition: all .2s linear .6s;
+}
+
+.opacity .three{
+  opacity: 1;
+}
+
+.notcandies .four {
+  opacity: 0;
+  transition: all .2s linear .9s;
+}
+
+.opacity .four{
+  opacity: 1;
 }
 
 .shake {

@@ -6,6 +6,14 @@ var $candyguide = $('.candyguide');
 // $candyguide.on('click', function (e) {
 //   $(this).toggleClass('is-clicked');
 // });
+$candyguide.waypoint(function (direction) {
+  if (direction == 'down') {
+    $candyguide.addClass('candyguideappears')
+
+  } else {
+    $candyguide.removeClass('candyguideappears')
+  }
+}, {offset:'90%'});
 
 $candies.waypoint(function (direction) {
   if (direction == 'down') {
