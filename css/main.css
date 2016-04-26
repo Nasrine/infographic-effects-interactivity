@@ -16,6 +16,7 @@ h2 {
   font-size: 2em;
 
 }
+
 h2:hover {
   color: white;
 }
@@ -34,10 +35,10 @@ h2:hover {
   100% { opacity: 0; }
 }
 
-/*.is-clicked {
+/* .is-clicked {
   opacity: 1;
   transition:  200ms ease;
-}*/
+} */
 
 .candyguide {
   opacity: 0;
@@ -49,20 +50,22 @@ h2:hover {
 }
 
 @keyframes fadeout {
+
   0% {
     opacity: 0;
     transform: rotateY(0deg);
   }
+
   100% {
     opacity: 1;
     transform: rotateY(40deg);
   }
 }
 
-/*.notcandies {
+/* .notcandies {
   stroke-width: 0;
   opacity: 0;
-}*/
+} */
 
 .unita {
   position: relative;
@@ -177,5 +180,5 @@ svg {
 }
 
 .bold:hover {
-  color: #F15B2B;
+  color: #f15b2b;
 }
