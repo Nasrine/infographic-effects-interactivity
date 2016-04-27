@@ -12,9 +12,17 @@ html {
   color: #fbb041;
 }
 
-h2 {
-  font-size: 2em;
+h1 {
+  font-size: 2rem;
 
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1:hover {
+  color: white;
 }
 
 h2:hover {
